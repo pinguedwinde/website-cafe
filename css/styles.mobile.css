@@ -126,133 +126,56 @@ p {
 
 /**** Header ****/
 
-.header {
-  background-color: #0a0a0a;
-  overflow: auto;
-  line-height: 2rem;
-}
-
 .header nav h2 {
-  float: left;
-  margin-bottom: 0;
-  padding: 20px;
-}
-.header nav h2 a {
-  color: white;
+  float: none;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  padding: 1.5rem;
 }
 
 .header nav ul {
-  float: right;
-  list-style: none;
+  float: none;
 }
 
 .header nav ul li {
-  float: left;
+  float: none;
 }
 
 .header nav ul li a {
   display: block;
-  color: white;
-  padding: 20px;
-}
-
-.header nav ul li a:hover,
-.active {
-  background-color: #262c2e;
+  padding: 0.4rem;
+  text-align: center;
 }
 
 /**** Banner ****/
 
-.banner {
-  height: 750px;
-  background: url(/img/banner.jpg) center center;
-  background-size: cover;
-  text-align: center;
-}
-
 .banner-content {
-  max-width: 700px;
-  padding: 1.2rem;
-  padding-top: 130px;
-  color: white;
-  margin: auto;
+  padding-top: 3rem;
 }
 
 .banner-content h1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 
 .banner-content p {
-  font-size: 1.125rem;
-  line-height: 2.5rem;
+  line-height: 1.8rem;
   letter-spacing: 1px;
 }
 
 .separator {
-  width: 35%;
+  width: 50%;
   height: 5px;
   background-color: #0a0a0a;
   margin: 20px auto;
 }
 
 /**** Features ****/
-
 .features {
-  padding-top: 4.5rem;
-  text-align: center;
-  overflow: auto;
-  padding: 100px 2rem;
-  line-height: 2em;
+  padding-top: 2rem;
 }
-
 .feature {
-  float: left;
-  padding: 20px;
-  width: 50%;
-  color: #0a0a0a;
-}
-
-.feature h2 {
-  font-size: 2em;
-}
-
-.feature p {
-  font-size: 1.2em;
-}
-
-/**** Person ****/
-
-.person {
-  background: url(/img/person.jpg) center center/cover;
-  height: 500px;
-}
-/**** Reservation ****/
-.reservation {
-  margin: auto;
-  max-width: 650px;
-  padding: 100px 0;
-  text-align: center;
-}
-
-.reservation h2 {
-  font-size: 2em;
-}
-
-.reservation p {
-  font-size: 1.2em;
-}
-/**** Footer ****/
-
-footer {
-  background-color: #0a0a0a;
-  margin: auto;
-  padding: 35px 0px;
-  text-align: center;
-  color: white;
-}
-
-footer p {
-  margin-bottom: 0;
+  float: none;
+  width: 100%;
 }
 
 /*******************************************************************************************************************
@@ -260,30 +183,27 @@ footer p {
 /******************************************************************************************************************/
 
 .location {
-  min-height: 83.7vh;
-  overflow: auto;
-  padding: 200px 0;
+  padding: 4rem 2rem;
 }
 
 .location-img {
-  float: left;
-  width: 45%;
-  object-fit: cover;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  float: none;
+  width: 100%;
+  margin-bottom: 3rem;
 }
 
 .location-text {
-  float: right;
-  width: 50%;
+  float: none;
+  width: 100%;
 }
 
 .location h1 {
-  font-size: 2.5em;
+  font-size: 2em;
+  text-align: center;
 }
 
 .location h3 {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 /*******************************************************************************************************************
@@ -293,67 +213,41 @@ footer p {
 .contact {
   min-height: 83.7vh;
   overflow: auto;
-  padding: 200px 0;
-}
-
-.contact-container {
-  max-width: 650px;
-  margin: auto;
+  padding: 4rem 2rem;
 }
 
 .contact-container form label {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 700;
   display: block;
 }
 
 .contact-container form input,
 textarea {
-  font-size: 1.2em;
-  width: 80%;
-  display: block;
-  padding: 15px;
-  border: 1px solid #0a0a0a;
-  border-radius: 5px;
+  font-size: 1em;
+  width: 100%;
+  padding: 0.8rem;
 }
 
 .contact-container form textarea {
   min-height: 200px;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .contact-container form h1 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 /*******************************************************************************************************************
 /************************************************* ABOUT US   *******************************************************
 /******************************************************************************************************************/
 
-.about {
-  min-height: 83.7vh;
-  overflow: auto;
-}
-
-.about-banner-content {
-  padding-top: 200px;
-  height: 450px;
-  background: url(/img/relax.jpg) center center;
-  background-size: cover;
-  text-align: center;
-  color: white;
-}
-
 .about-banner-content h1 {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .about-text {
-  padding: 50px;
-  font-size: 1.2em;
-  letter-spacing: 0.5px;
-  line-height: 2em;
-  text-align: justify;
-  max-width: 850px;
-  margin: auto;
+  padding: 2rem;
+  font-size: 1em;
+  line-height: 1.5em;
 }
